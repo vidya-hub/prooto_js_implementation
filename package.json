@@ -1,0 +1,21 @@
+{
+  "name": "protoo-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "watch": "watchify public/client.js -o public/bundle.js -v"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "httpolyglot": "^0.1.2",
+    "nodemon": "^3.1.3",
+    "protoo-client": "^4.0.6",
+    "protoo-server": "^4.0.6"
+  },
+  "type": "module"
+}
